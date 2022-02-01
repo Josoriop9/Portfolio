@@ -1,8 +1,4 @@
-.page-wrapper {
-    display: grid;
-    place-items: center;
-    text-align: center;
-  }
+
 
   .img1 {
     height: 20%;
@@ -17,6 +13,9 @@
     z-index: 1;
   }
 
-  #fimg{
-    margin-top: 60px;
-  }
+   #femoji{
+    display: block;
+    margin-left: auto;   
+    margin-right: auto;
+    margin-top: -5%;
+}

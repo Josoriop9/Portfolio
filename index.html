@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1  " />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Juan Osorio Portfolio</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -14,6 +14,9 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style2.css" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
       <!--Main Navigation-->
@@ -40,7 +43,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
           <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand nav-link" target="_blank" href="">
+            <a class="navbar-brand nav-link" id="initpage" href="#initpage">
               <strong>Portfolio</strong>
             </a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -50,17 +53,16 @@
             <div class="collapse navbar-collapse" id="navbarExample01">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#myprojects" target="_blank">My projects</a>
+                  <a class="nav-link" href="#myprojects">My projects</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#intro">Sevices</a>
+                  <a class="nav-link" aria-current="page" href="#services">Sevices</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="" rel="nofollow"
-                    target="_blank">About me</a>
+                  <a class="nav-link" href="#initpage">About me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="" target="_blank">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
 
               </ul>
@@ -94,7 +96,8 @@
         </nav>
         <!-- Navbar -->
     
-        <!-- Background image -->
+        <!--Greetings section-->
+
         <section>
         <div id="intro" class="bg-image shadow-2-strong">
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
@@ -110,22 +113,22 @@
           </div>
         </div>
       </section>
-        <!-- Background image -->
-      </header>
-      <!--Main Navigation-->
+    </header>
+
+      <!--//Greetings section-->
     
-      <!--Main layout-->
+      <!--Moto layout-->
       <section>
       <main class="" style="background-color: rgba(22, 14, 14, 0.904);">
         <div class="container">
-          <!--Section: Content-->
+          <!--Moto: Content-->
             <div class="row">
               <div class="gx-1 mb-4">
                 <div class="" data-mdb-ripple-color="light"> <br><br>
                   <div class="text-center py-4 align-items-center">
-                      <h1 style="font-size: 520%; color:rgba(173, 173, 173, 0.993);">Wake up, work hard and repeat</h1> 
+                      <h1 style="font-size: 10vw; color:rgba(173, 173, 173, 0.993);" data-aos="fade-up">Wake up, work hard and repeat</h1> 
                     </div>
-                      <img id="femoji" src="/img/272732827_1003297470285471_5886028323831997367_n-removebg-preview.png">
+                      <img id="femoji" src="/img/272732827_1003297470285471_5886028323831997367_n-removebg-preview.png" data-aos="fade-up">
               </div>
             </div>            
         </section>  
@@ -138,11 +141,11 @@
               <!--Section: Content-->
               
           <section class="text-center" id="myprojects">
-            <h1 class="mb-5" style="color: seashell;"><strong>My Projects</strong></h1>
+            <h1 class="mb-5" style="color: seashell;" data-aos="fade"><strong>My Projects</strong></h1>
     
             <div class="row">
               <div class="col-lg-6 col-md-12 mb-4">
-                <div class="card">
+                <div class="card" data-aos="fade">
                   <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                     <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
                     <a href="https://eitifoodtest.online/">
@@ -160,7 +163,7 @@
               </div>
     
               <div class="col-lg-6 col-md-6 mb-4">
-                <div class="card">
+                <div class="card" data-aos="fade">
                   <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                     <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
                     <a href="https://rsseguros.netlify.app/index.html">
@@ -181,38 +184,68 @@
     
           <hr class="my-5" />
     
-                 <!--process-->
-        <section class="py-6" id="process" style="background-color: rgb(26, 25, 25);">
+        <!--Services-->
+        <section class="py-6" id="services" style="background-color: rgb(26, 25, 25);">
           <div class="container">
               <div class="row">
                   <div class="col-md-7 mx-auto text-center"> <br>
-                      <h1 style="color: white;">Services</h1>
-                      <p style="color: white;">
+                      <h1 style="color: white;" data-aos="fade"><strong>Services</strong></h1>
+                      <p style="color: white;" data-aos="fade">
                           I can help you with:
-                      </p>
+                      </p> <br><br>
                   </div>
               </div>
-              <div class="card bg-dark text-white">
-                <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.
-                  </p>
+
+              <div class="container" id="fcard" data-aos="fade">
+                    <div class="toast show fade text-black" role="alert" aria-live="assertive" aria-atomic="true" data-mdb-color="info" data-mdb-autohide="false">
+                  <div class="toast-header text-black">
+                    <strong class="me-auto">Front-end development</strong>
+                  </div>
+                  <div>
+                  <i class="fab fa-html5 fa-2x" style="margin-left: 14%;"></i>
+                  <i class="fab fa-js-square fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-css3-alt fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-bootstrap fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-mdb fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-react fa-2x" style="margin-left: 5%;"></i>
+                  </div>             
+                  <div class="toast-body">This is my Front-end stack</div>
+                </div>
+            </div>
+                </div> <br><br>
+                <div class="container" id="fcard1" data-aos="fade">
+                <div class="toast show fade text-black" role="alert" aria-live="assertive" aria-atomic="true" data-mdb-color="info" data-mdb-autohide="false">
+                  <div class="toast-header text-black">
+                    <strong class="me-auto">BaaS & DevOps Tools</strong>
+                  </div>
+                  <div>
+                  <i class="fab fa-github fa-2x" style="margin-left: 14%;"></i>
+                  <i class="fab fa-google fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-aws fa-2x" style="margin-left: 5%;"></i>
+                  <i class="fab fa-microsoft fa-2x" style="margin-left: 5%;"></i>
+                  </div>             
+                  <div class="toast-body">Some of the tools I used</div>
                 </div>
               </div>
+          </div>
+
+          
+
+
+
+            
+                            
       </section>
     
       <!--Footer-->
-      <footer class="py-6" id="process" style="background-color: rgb(26, 25, 25);"></footer>
+      <footer class="py-6" id="contact" style="background-color: rgb(26, 25, 25);"></footer>
         <div class="py-4 text-center">
         </div>
     
         <hr class="m-0" />
         <br><br><br>
         <div class="text-center py-4 align-items-center">
-          <h1 style="font-size:520%; color: white;">Reach me out!!!</h1>
+          <h1 style="font-size:8vw; color: white;">Reach me out!!!</h1>
           <br><br>
           <a href="mailto:jc_osoriop@hotmail.com" class="btn btn-primary m-5" role="button"
             rel="nofollow" target="_blank">
@@ -229,3 +262,8 @@
         <!-- Copyright -->
       </footer>
       <!--Footer-->
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
